@@ -133,9 +133,9 @@ def test_predictions():
 
   print("--- TEST COMPLETE ---")
   if (passed):
-    print("You passed the challenge!")
+    print("Test Passed!")
   else:
-    print("You failed the challenge.")
+    print("Test Failed.")
 
 # Run the new test function
 test_predictions()
