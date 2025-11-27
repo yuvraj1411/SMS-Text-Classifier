@@ -4,6 +4,7 @@ This Google Colab notebook provides a complete, self-contained implementation of
 🔗 Colab Notebook Link: https://colab.research.google.com/drive/1Sj8DwIoZBtn1AH-1Zoyddc5RoTsLyE3N?usp=drive_link
 
 🚀 Workflow & Key Components
+
 The notebook automates the entire machine learning pipeline, making it easy to run and reproduce:
 
 1. Setup: Installs necessary libraries (tf-nightly, tensorflow-datasets) and imports TensorFlow, Pandas, and NumPy.
@@ -30,7 +31,9 @@ The notebook automates the entire machine learning pipeline, making it easy to r
 7. Prediction: A utility function, predict_message(), is included to classify new messages and a test suite runs automatically to confirm functionality.
 
 💻 Usage
+
 Open the Colab link and run all cells sequentially. No local setup or file configuration is required. The notebook handles all dependencies and execution steps automatically.
 
 📜 License
+
 This project is made available for educational purposes.
