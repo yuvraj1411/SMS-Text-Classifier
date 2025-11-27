@@ -4,7 +4,6 @@ print("--- Uninstalling existing TensorFlow... ---")
 !pip uninstall -y tensorflow tensorflow-cpu tensorflow-gpu tf-nightly tensorboard-plugin-profile
 print("--- Installing compatible TensorFlow (tf-nightly)... ---")
 !pip install -q tf-nightly
-
 print("--- Importing libraries... ---")
 import tensorflow as tf
 import pandas as pd
@@ -13,10 +12,10 @@ from tensorflow import keras
 import tensorflow_datasets as tfds
 import numpy as np
 import matplotlib.pyplot as plt
-
 print(f"\n--- SUCCESS! ---")
 print(f"TensorFlow version: {tf.__version__}")
 print("Ready to run Cell 2.")
+
 
 !wget https://cdn.freecodecamp.org/project-data/sms/train-data.tsv
 !wget https://cdn.freecodecamp.org/project-data/sms/valid-data.tsv
