@@ -10,8 +10,8 @@ The notebook automates the entire machine learning pipeline, making it easy to r
 
 2. Data Processing:
 
-Downloads and loads training and validation SMS datasets.
-Converts 'ham' / 'spam' labels to 0 / 1 integers.
+   Downloads and loads training and validation SMS datasets.
+   Converts 'ham' / 'spam' labels to 0 / 1 integers.
 
 3. Tokenization & Padding: Converts messages into numerical sequences and standardizes the length to 120 for model input.
 
@@ -19,13 +19,13 @@ Converts 'ham' / 'spam' labels to 0 / 1 integers.
 
 5. Embedding Layer: Maps words to 64-dimensional vectors.
 
-Global Average Pooling 1D - Efficiently summarizes the message's features.
-Dense Layers (with Dropout) -  Performs classification, concluding with a Sigmoid activation to output the spam probability.
+   Global Average Pooling 1D - Efficiently summarizes the message's features.
+   Dense Layers (with Dropout) -  Performs classification, concluding with a Sigmoid activation to output the spam probability.
 
 6. Training & Evaluation:
 
-The model is compiled with the Adam optimizer and binary cross-entropy loss.
-It is trained for 30 epochs with validation on the test data.
+   The model is compiled with the Adam optimizer and binary cross-entropy loss.
+   It is trained for 30 epochs with validation on the test data.
 
 7. Prediction: A utility function, predict_message(), is included to classify new messages and a test suite runs automatically to confirm functionality.
 
